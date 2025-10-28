@@ -1,9 +1,10 @@
+import Footer from '@/components/layout/Footer';
 import Header from '@/components/layout/Header';
+import RelatedProducts from '@/components/sections/RelatedProducts';
 import Breadcrumb from '@/components/ui/Breadcrumb';
 import ProductImageGallery from '@/components/ui/ProductImageGallery';
 import ProductInfo from '@/components/ui/ProductInfo';
 import ProductTabs from '@/components/ui/ProductTabs';
-import RelatedProducts from '@/components/sections/RelatedProducts';
 
 // Mock product data - in a real app, this would come from an API
 const getProductData = (id: string) => {
@@ -112,6 +113,7 @@ export default function ProductPage({ params }: ProductPageProps) {
         <ProductTabs product={product} />
         <RelatedProducts />
       </main>
+      <Footer />
     </div>
   );
 }

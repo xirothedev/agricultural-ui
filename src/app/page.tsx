@@ -6,6 +6,7 @@ import FeaturedProducts from '@/components/sections/FeaturedProducts';
 import Features from '@/components/sections/Features';
 import Hero from '@/components/sections/Hero';
 import Newsletter from '@/components/sections/Newsletter';
+import Footer from '@/components/layout/Footer';
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
         <Features />
         <Newsletter />
       </main>
+      <Footer />
     </div>
   );
 }
