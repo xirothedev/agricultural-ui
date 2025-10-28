@@ -1,25 +1,26 @@
 'use client';
 
-import Header from '@/components/layout/Header';
 import Footer from '@/components/layout/Footer';
+import Header from '@/components/layout/Header';
 import {
-  User,
-  MapPin,
-  CreditCard,
-  Package,
-  Heart,
   Bell,
-  Lock,
-  LogOut,
   Camera,
   CheckCircle,
-  Plus,
-  MoreVertical,
-  Truck,
+  CreditCard,
+  Heart,
+  Lock,
+  LogOut,
   Mail,
+  MapPin,
+  MoreVertical,
+  Package,
+  Plus,
   Smartphone,
-  Tag
+  Tag,
+  Truck,
+  User
 } from 'lucide-react';
+import Image from 'next/image';
 import { useState } from 'react';
 
 export default function ProfilePage() {
@@ -248,7 +249,7 @@ export default function ProfilePage() {
 
                   <div className="flex items-center space-x-4 mb-4">
                     <div className="w-16 h-16 bg-gray-100 rounded-lg shrink-0">
-                      <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 200'%3E%3Crect fill='%23E5E7EB' width='200' height='200'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' font-family='system-ui' font-size='48' fill='%239CA3AF'%3E🌱%3C/text%3E%3C/svg%3E" alt="Product" className="w-full h-full object-cover rounded-lg" />
+                      <Image src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 200'%3E%3Crect fill='%23E5E7EB' width='200' height='200'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' font-family='system-ui' font-size='48' fill='%239CA3AF'%3E🌱%3C/text%3E%3C/svg%3E" alt="Product" className="w-full h-full object-cover rounded-lg" />
                     </div>
                     <div className="flex-1 min-w-0">
                       <h4 className="font-medium mb-1">Organic Tomato Seeds</h4>
@@ -283,7 +284,7 @@ export default function ProfilePage() {
 
                   <div className="flex items-center space-x-4 mb-4">
                     <div className="w-16 h-16 bg-gray-100 rounded-lg shrink-0">
-                      <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 200'%3E%3Crect fill='%23E5E7EB' width='200' height='200'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' font-family='system-ui' font-size='48' fill='%239CA3AF'%3E🚜%3C/text%3E%3C/svg%3E" alt="Product" className="w-full h-full object-cover rounded-lg" />
+                      <Image src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 200'%3E%3Crect fill='%23E5E7EB' width='200' height='200'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' font-family='system-ui' font-size='48' fill='%239CA3AF'%3E🚜%3C/text%3E%3C/svg%3E" alt="Product" className="w-full h-full object-cover rounded-lg" />
                     </div>
                     <div className="flex-1 min-w-0">
                       <h4 className="font-medium mb-1">Farm Irrigation System</h4>

@@ -15,6 +15,7 @@ import {
   CheckCircle
 } from 'lucide-react';
 import { useState } from 'react';
+import Image from 'next/image';
 
 export default function PaymentPage() {
   const [sameAddress, setSameAddress] = useState(true);
@@ -102,9 +103,9 @@ export default function PaymentPage() {
                       <span className="font-medium">Credit or Debit Card</span>
                     </div>
                     <div className="flex items-center space-x-2">
-                      <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 32'%3E%3Crect width='48' height='32' rx='4' fill='%231434CB'/%3E%3Ccircle cx='18' cy='16' r='8' fill='%23EB001B'/%3E%3Ccircle cx='30' cy='16' r='8' fill='%23FF5F00'/%3E%3C/svg%3E" alt="Mastercard" className="h-6" />
-                      <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 32'%3E%3Crect width='48' height='32' rx='4' fill='%231A1F71'/%3E%3Cpath d='M17 11h-4l-2 10h4l2-10zm8 0l-3 10h4l2-7 1 7h3l1-10h-4l-1 5-1-5h-2zm10 0h-4l-2 10h4l.5-2h2.5l.5 2h4l-3-10zm-1 6h-1.5l1-4 .5 4z' fill='%23fff'/%3E%3C/svg%3E" alt="Visa" className="h-6" />
-                      <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 32'%3E%3Crect width='48' height='32' rx='4' fill='%23016FD0'/%3E%3Cpath d='M16 11l-2 10h3l2-10h-3zm9 0h-3l-2 7 1-7h-3l-2 10h3l1-3 1 3h3l-1-4 2 4h3l-3-10z' fill='%23fff'/%3E%3C/svg%3E" alt="Amex" className="h-6" />
+                      <Image src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 32'%3E%3Crect width='48' height='32' rx='4' fill='%231434CB'/%3E%3Ccircle cx='18' cy='16' r='8' fill='%23EB001B'/%3E%3Ccircle cx='30' cy='16' r='8' fill='%23FF5F00'/%3E%3C/svg%3E" alt="Mastercard" className="h-6" />
+                      <Image src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 32'%3E%3Crect width='48' height='32' rx='4' fill='%231A1F71'/%3E%3Cpath d='M17 11h-4l-2 10h4l2-10zm8 0l-3 10h4l2-7 1 7h3l1-10h-4l-1 5-1-5h-2zm10 0h-4l-2 10h4l.5-2h2.5l.5 2h4l-3-10zm-1 6h-1.5l1-4 .5 4z' fill='%23fff'/%3E%3C/svg%3E" alt="Visa" className="h-6" />
+                      <Image src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 32'%3E%3Crect width='48' height='32' rx='4' fill='%23016FD0'/%3E%3Cpath d='M16 11l-2 10h3l2-10h-3zm9 0h-3l-2 7 1-7h-3l-2 10h3l1-3 1 3h3l-1-4 2 4h3l-3-10z' fill='%23fff'/%3E%3C/svg%3E" alt="Amex" className="h-6" />
                     </div>
                   </div>
                 </label>
@@ -295,7 +296,7 @@ export default function PaymentPage() {
                 <div className="space-y-4 mb-6">
                   <div className="flex space-x-4">
                     <div className="w-20 h-20 bg-gray-100 rounded-lg shrink-0 overflow-hidden">
-                      <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 200'%3E%3Crect fill='%23E5E7EB' width='200' height='200'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' font-family='system-ui' font-size='48' fill='%239CA3AF'%3E🌱%3C/text%3E%3C/svg%3E" alt="Product" className="w-full h-full object-cover" />
+                      <Image src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 200'%3E%3Crect fill='%23E5E7EB' width='200' height='200'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' font-family='system-ui' font-size='48' fill='%239CA3AF'%3E🌱%3C/text%3E%3C/svg%3E" alt="Product" className="w-full h-full object-cover" />
                     </div>
                     <div className="flex-1 min-w-0">
                       <h3 className="font-medium mb-1">Organic Tomato Seeds</h3>
@@ -311,7 +312,7 @@ export default function PaymentPage() {
 
                   <div className="flex space-x-4">
                     <div className="w-20 h-20 bg-gray-100 rounded-lg shrink-0 overflow-hidden">
-                      <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 200'%3E%3Crect fill='%23E5E7EB' width='200' height='200'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' font-family='system-ui' font-size='48' fill='%239CA3AF'%3E🚜%3C/text%3E%3C/svg%3E" alt="Product" className="w-full h-full object-cover" />
+                      <Image src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 200'%3E%3Crect fill='%23E5E7EB' width='200' height='200'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' font-family='system-ui' font-size='48' fill='%239CA3AF'%3E🚜%3C/text%3E%3C/svg%3E" alt="Product" className="w-full h-full object-cover" />
                     </div>
                     <div className="flex-1 min-w-0">
                       <h3 className="font-medium mb-1">Farm Irrigation System</h3>
