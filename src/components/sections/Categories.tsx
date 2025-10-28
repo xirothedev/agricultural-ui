@@ -32,7 +32,7 @@ export default function Categories() {
 							title={category.title}
 							image={category.image}
 							alt={category.alt}
-							href={{ href: `/categories/${category.slug}` }}
+							href={{ pathname: `/categories/${category.slug}` }}
 						/>
 					))}
 				</div>

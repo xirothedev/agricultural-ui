@@ -28,7 +28,7 @@ export default function ProductCard({
 	href = "#",
 }: ProductCardProps) {
 	const productSlug = title.toLowerCase().replace(/\s+/g, "-");
-	const productHref = { href: href === "#" ? `/products/${productSlug}` : href };
+	const productHref = { pathname: href === "#" ? `/products/${productSlug}` : href };
 
 	return (
 		<div className="group">

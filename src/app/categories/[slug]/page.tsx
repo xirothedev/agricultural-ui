@@ -63,8 +63,8 @@ const getCategoryData = (slug: string) => {
 export default function CategoryPage({ params }: CategoryPageProps) {
 	const category = getCategoryData(params.slug);
 	const breadcrumbItems = [
-		{ label: "Home", href: { href: "/" } },
-		{ label: category.title, href: { href: `/categories/${params.slug}` } },
+		{ label: "Home", href: { pathname: "/" } },
+		{ label: category.title, href: {} },
 	];
 
 	return (

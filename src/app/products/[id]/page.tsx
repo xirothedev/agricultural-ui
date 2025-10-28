@@ -87,9 +87,9 @@ interface ProductPageProps {
 export default function ProductPage({ params }: ProductPageProps) {
 	const product = getProductData(params.id);
 	const breadcrumbItems = [
-		{ label: "Home", href: { href: "/" } },
-		{ label: "Fresh Produce", href: { href: "/category/fresh-produce" } },
-		{ label: product.name, href: { href: `/products/${params.id}` } },
+		{ label: "Home", href: { pathname: "/" } },
+		{ label: "Fresh Produce", href: { pathname: "/category/fresh-produce" } },
+		{ label: product.name, href: {} },
 	];
 
 	return (
