@@ -1,5 +1,26 @@
 {
 	"name": "agricultural-ui",
+	"description": "Agricultural UI",
+	"author": "Xiro The Dev <lethanhtrung.trungle@gmail.com>",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/xirothedev/agricultural-ui"
+	},
+	"bugs": {
+		"url": "https://github.com/xirothedev/agricultural-ui/issues"
+	},
+	"funding": {
+		"type": "github",
+		"url": "https://github.com/sponsors/xirothedev"
+	},
+	"homepage": "https://agricultural-ui.vercel.app/",
+	"keywords": [
+		"agricultural",
+		"ui",
+		"nextjs",
+		"tailwindcss"
+	],
 	"version": "0.1.0",
 	"private": true,
 	"scripts": {

@@ -1,0 +1,12 @@
+# Development files
+.storybook/
+scripts/
+.github/
+.husky/
+.vscode/
+
+# Build artifacts
+.next/
+generated
+node_modules/
+*.log
