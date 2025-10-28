@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { Heart } from "lucide-react";
+import CornerRibbon from "./CornerRibbon";
 
 interface ProductCardProps {
 	title: string;
@@ -46,15 +47,7 @@ export default function ProductCard({
 					<button className="absolute right-4 bottom-4 left-4 rounded-lg bg-white py-2.5 font-medium text-gray-900 opacity-0 transition-opacity group-hover:opacity-100 hover:bg-gray-100">
 						Add to Cart
 					</button>
-					{badge && (
-						<div
-							className={`absolute top-4 left-4 rounded-full px-3 py-1 text-xs font-medium ${
-								badge.type === "new" ? "bg-black text-white" : "bg-red-500 text-white"
-							}`}
-						>
-							{badge.text}
-						</div>
-					)}
+					{badge && <CornerRibbon text={badge.text} variant={badge.type === "new" ? "new" : "sale"} />}
 				</div>
 			</Link>
 			<div>
