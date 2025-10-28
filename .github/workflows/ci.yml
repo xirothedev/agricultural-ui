@@ -33,7 +33,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v5
         with:
-          images: ghcr.io/xirothedev/modern-portfolio
+          images: ghcr.io/xirothedev/agricultural-ui
 
       - name: Build and push Docker image
         uses: docker/build-push-action@v5
@@ -42,8 +42,8 @@ jobs:
           file: ./Dockerfile
           push: true
           tags: |
-            ghcr.io/xirothedev/modern-portfolio:latest
-            ghcr.io/xirothedev/modern-portfolio:${{ github.sha }}
+            ghcr.io/xirothedev/agricultural-ui:latest
+            ghcr.io/xirothedev/agricultural-ui:${{ github.sha }}
           labels: ${{ steps.meta.outputs.labels }}
 
       # Optional: add test step here if you have tests
