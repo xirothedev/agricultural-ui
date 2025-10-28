@@ -1,7 +1,7 @@
 import type { MetadataRoute } from "next";
 
 // Base URL for canonical links
-const BASE_URL = "https://agriculture.xirothedev.site";
+const BASE_URL = "https://agricultural.xirothedev.site";
 
 // Static lists for now; replace with real data sources when available
 const categorySlugs = ["fresh-produce", "grains-seeds", "farm-equipment"];

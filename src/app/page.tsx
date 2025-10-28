@@ -19,10 +19,10 @@ export default function Home() {
 						"@context": "https://schema.org",
 						"@type": "WebSite",
 						name: "AGRO",
-						url: "https://agriculture.xirothedev.site/",
+						url: "https://agricultural.xirothedev.site/",
 						potentialAction: {
 							"@type": "SearchAction",
-							target: "https://agriculture.xirothedev.site/search?q={search_term_string}",
+							target: "https://agricultural.xirothedev.site/search?q={search_term_string}",
 							"query-input": "required name=search_term_string",
 						},
 					})}
@@ -32,8 +32,8 @@ export default function Home() {
 						"@context": "https://schema.org",
 						"@type": "Organization",
 						name: "AGRO",
-						url: "https://agriculture.xirothedev.site/",
-						logo: "https://agriculture.xirothedev.site/media/logo.png",
+						url: "https://agricultural.xirothedev.site/",
+						logo: "https://agricultural.xirothedev.site/media/logo.png",
 						sameAs: ["https://www.facebook.com/", "https://www.instagram.com/", "https://twitter.com/"],
 						contactPoint: [
 							{

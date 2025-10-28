@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-	metadataBase: new URL("https://agriculture.xirothedev.site"),
+	metadataBase: new URL("https://agricultural.xirothedev.site"),
 	title: {
 		default: "AGRO - Premium Agricultural Products",
 		template: "%s | AGRO",
