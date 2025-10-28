@@ -1,7 +1,7 @@
 # syntax=docker.io/docker/dockerfile:1
 
 # ---------- Base image ----------
-FROM node:24-alpine AS base
+FROM node:25-alpine AS base
 
 # ---------- Dependencies ----------
 FROM base AS deps
