@@ -1,4 +1,4 @@
-# Contributing to discord.js-template-v14
+# Contributing to Agricultural UI
 
 We would love for you to contribute to this project and help make it even better!
 As a contributor, here are the guidelines we would like you to follow:
